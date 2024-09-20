@@ -23,14 +23,14 @@ public class WebUI {
     //Assert and Verify
     public static boolean verifyEquals(Object actual, Object expected) {
         waitForPageLoaded();
-        System.out.println("✅ Verify equals: " + actual + " and " + expected);
+        System.out.println("✅ Verify equals: " + actual + " \uD83D\uDFF0 " + expected);
         boolean check = actual.equals(expected);
         return check;
     }
 
     public static void assertEquals(Object actual, Object expected, String message) {
         waitForPageLoaded();
-        System.out.println("✅ Assert equals: " + actual + " and " + expected);
+        System.out.println("✅ Assert equals: " + actual + " \uD83D\uDFF0 " + expected);
         Assert.assertEquals(actual, expected, message);
     }
 
@@ -415,6 +415,4 @@ public class WebUI {
             }
         }
     }
-
-
 }

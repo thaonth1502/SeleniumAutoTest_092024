@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestNG Parameters Suite">
+    <test name="Params">
+        <parameter name="number1" value="2" />
+        <parameter name="number2" value="3" />
+        <parameter name="email" value="admin@example.com" />
+        <parameter name="password" value="123456" />
+        <parameter name="url" value="anhtester.com"></parameter>
+        <classes>
+            <class name="com.thaonth.Bai24_Parameter_MultiBrowser.DemoParameter" />
+        </classes>
+    </test>
+</suite>
